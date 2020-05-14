@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	background-color: hsl(180, 52%, 96%);
+}
+
+.head-tag{
+	background-color:hsl(180, 8%, 52%);
+	width: 100%;
+	height: 10vh;
+	margin-bottom: 70px;
+}
+
+#section-container{
+	margin: 0 10%;
+	margin-bottom: 50px;
+	background-color:#ffffff;
+	width: 84%;
+}
+
+.img-sect{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+	padding-top: 20px;
+}
+.img-responsive{
+	margin: 0 10px;
+	padding: 20px;
+	width: 100%;
+}
+
+.section-info{
+	display: inline-block;
+	padding-left: 40px;
+	width: 250px;
+	position: relative;
+	top: -20px;
+}
+
+.section-info .name{
+	padding-right: 15px;
+	font-weight: bold;
+	color: hsl(180, 8%, 52%);
+	padding-top: -40px;
+	font-size: 1.2em;
+}
+
+.section-info .extra{
+	color: #fff;
+	background-color: hsl(180, 8%, 52%);
+	padding: 5px;
+	border-radius: 10px;
+	margin-right: 10px;	
+	font-size: 0.8em;
+}
+
+.section-info .addition{
+	color: #fff;
+	background-color: #000;
+	border-radius: 5px;
+	padding: 5px;
+	font-size: 0.8em;
+}
+
+.section-info p{
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.section-info p span{
+	font-size: 0.8em;
+	font-weight: normal;
+	padding-right: 10px; 
+}
+
+.data-attributes{
+	display: inline-block;
+	width: 50%;
+	position: relative;
+	top: -50px;
+	right: 0px;
+	margin-left: 100px;
+	
+}
+
+.data-attributes li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 35px;
+	background-color:#cce6ff;
+	color:hsl(180, 8%, 52%);
+	border-radius: 10px;
+	padding: 5px;
+}
+
+footer{
+	background-color:#cce6ff;
+	padding: 30px;
+}
+.attribution { 
+	font-size: 11px; 
+	text-align: center;
+	color:hsl(180, 8%, 52%);
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%); 
+}
+
+
+@media only screen and (max-width: 600px){
+	.data-attributes{
+		position: relative;
+		left:-50px;
+		display: block;	
+		width: 70%;		
+	}
+	
+	.data-attributes li{
+		margin-top: 20px;
+		margin-right: 20px;
+		text-align: center;
+		justify-content: center;
+	}
+	
+	.section-info{
+		border-bottom: 1px solid black;
+		width: 60%;
+	}
+}
